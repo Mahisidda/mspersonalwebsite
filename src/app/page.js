@@ -1,11 +1,12 @@
 import React from 'react'
 
-function page() {
+
+export default function Page() {
   return (
-    <div className=''>
-      
-    </div>
+    <main className="min-h-screen">
+      <h1>
+        Hey
+      </h1>
+    </main>
   )
 }
-
-export default page
