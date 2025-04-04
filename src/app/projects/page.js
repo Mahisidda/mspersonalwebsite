@@ -28,17 +28,17 @@ function ProjectsPage() {
     return (
       <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Technical Projects</h1>
-          <p className="text-gray-600">No projects available at the moment.</p>
+          <h1 className="text-4xl font-mono font-bold text-gray-900 mb-4">Technical Projects</h1>
+          <p className=" font-mono text-gray-600">No projects available at the moment.</p>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
-        <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center">
+    <div className="min-h-screen font-mono bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl font-mono mx-auto">
+        <h1 className="text-4xl font-mono font-bold text-gray-900 mb-8 text-center">
           Technical Projects
         </h1>
         

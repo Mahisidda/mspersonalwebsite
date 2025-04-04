@@ -21,12 +21,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#F2F2F2] flex min-h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#F2F2F2] flex min-h-screen flex-col`}
       >
-        <Sidebar />
-        <main className="flex-1 md:ml-64 p-4 md:p-8 w-full">
-          {children}
-        </main>
+        <div className="flex-1 flex">
+          <Sidebar />
+          <main className="flex-1 md:ml-64 p-4 md:p-8 w-full">
+            {children}
+          </main>
+        </div>
+        <footer className="w-full text-center py-4 text-gray-300 text-sm">
+          © Mahi Sidda 2025
+        </footer>
       </body>
     </html>
   );

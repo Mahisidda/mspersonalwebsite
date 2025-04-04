@@ -22,7 +22,7 @@ function About() {
         {/* Academic Background */}
         <div className="space-y-2">
           <h2 className="text-2xl font-mono font-bold text-gray-800 mb-2">Driven by Artificial Intelligence, Grounded in Innovation</h2>
-          <p className="text-base font-mono text-gray-700">
+          <p className="text-base text-justify font-mono text-gray-700">
             As a Master's student in Information Technology at Arizona State University, I'm focused on unraveling AI's transformative potential. My coursework in Natural Language Processing (NLP), Big Data, and AI in Cybersecurity forms my technical foundation, while hands-on work with Generative AI fuels my passion for practical solutions.
           </p>
         </div>
@@ -30,7 +30,7 @@ function About() {
         {/* Professional Experience */}
         <div className="space-y-2">
           <h2 className="text-2xl font-mono font-bold text-gray-800 mb-2">From Classroom to Startup Trenches</h2>
-          <p className="text-base font-mono text-gray-700">
+          <p className="text-base font-mono text-justify text-gray-700">
             At Hashmint, I helped develop MintPDF - a Retrieval-Augmented Generation (RAG) platform revolutionizing document interaction. Collaborating with engineers and founders, I implemented AI-driven querying systems using transformer models, gaining invaluable experience in scaling NLP solutions and shipping production-ready tools. This startup journey taught me agile development, user-centric design, and the art of transforming academic concepts into impactful products.
           </p>
         </div>
@@ -38,7 +38,7 @@ function About() {
         {/* Future Goals */}
         <div className="space-y-2">
           <h2 className="text-2xl font-mono font-bold text-gray-800 mb-2">Building Tomorrow's Intelligent Solutions</h2>
-          <p className="text-base font-mono text-gray-700">
+          <p className="text-base font-mono text-justify text-gray-700">
             I'm now focused on bridging AI's theoretical promise with real-world implementation. My projects span generative models, document intelligence, and ethical AI frameworks, always prioritizing solutions that solve tangible challenges. Whether enhancing cybersecurity through machine learning or designing adaptive NLP systems, I aim to create tools that empower industries while maintaining cultural sensitivity and ethical responsibility.
           </p>
         </div>
