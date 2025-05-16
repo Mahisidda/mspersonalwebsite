@@ -1,16 +1,47 @@
 import React from 'react'
+import Image from 'next/image';
 
-export default function Page() {
+export default function HomePage() {
   return (
-    <main className="min-h-screen flex flex-col items-center p-4 md:p-8">
-      <div className="w-full max-w-screen-xl mx-auto">
-        <h1 className="text-3xl font-mono md:text-6xl font-bold mb-8 text-center px-4">
-          Mahi Sidda
-        </h1>
-        <p className="text-base font-mono text-justify md:text-xl text-gray-600 max-w-sm md:max-w-2xl mx-auto text-center px-4">
-           I can make things happen.
+    <div className="flex flex-col md:flex-row items-stretch min-h-[calc(100vh-5rem)]"> {/* 5rem = h-20 navbar height */}
+
+      {/* Left Column: Content */}
+      <div className="w-full md:w-1/2 flex flex-col justify-center items-start text-left p-8 sm:p-12 md:p-16 lg:p-24 space-y-8">
+        {/* Your Name - styled like "Chipie DESIGN" */}
+        <div>
+            <h1 className="font-sans text-6xl sm:text-7xl lg:text-8xl font-extrabold tracking-tighter text-black">
+                Mahi
+            </h1>
+            <p className="font-sans text-5xl sm:text-6xl lg:text-7xl font-semibold tracking-normal -mt-2 sm:-mt-3 text-black">
+                Sidda
+            </p>
+        </div>
+
+        {/* Your Bio/Tagline */}
+        <p className="font-sans text-base sm:text-lg text-gray-800 leading-relaxed">
+          {/* Replace this with your 3-4 line bio */}
+         "" 
+          <br />
+          
+          <br />
+         
         </p>
+
+        {/* Button removed from here as per your request */}
       </div>
-    </main>
+
+      {/* Right Column: Image */}
+      <div className="w-half md:w-1/2 h-[60vh] md:h-auto bg-gray-300 relative">
+        <Image
+          src="/snow4.jpg" // TODO: Replace with your preferred hero image
+          alt="Mahi Sidda - Portfolio Hero" // Make this descriptive
+          layout="fill"
+          objectFit="cover"
+          priority
+        />
+        {/* The text "SERVICES", "HOW IT WORKS" seen on the Chipie image would either be part of your image
+            or could be overlaid with absolute positioning if you want them dynamic. */}
+      </div>
+    </div>
   )
 }

@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { FaReact, FaNodeJs, FaPython, FaJava, FaGitAlt, FaAws } from 'react-icons/fa';
 //import { DiKotlin } from "react-icons/di";
@@ -75,7 +76,6 @@ function Skills() {
         ))}
       </div>
 
-      {/* Additional Skills Section */}
       <div className="max-w-6xl mx-auto mt-8 bg-white rounded-xl p-6 shadow-sm">
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Tools & Technologies</h2>
         <div className="flex flex-wrap gap-4">
@@ -93,4 +93,17 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default Skills; 
+
+
+/*
+import React from 'react'
+
+export default function page() {
+  return (
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+      <h1 style={{ fontSize: '3em' }}>OOPS... UNDER CONSTRUCTION</h1>
+    </div>
+  )
+}
+*/

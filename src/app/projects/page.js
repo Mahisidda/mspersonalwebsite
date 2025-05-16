@@ -4,19 +4,31 @@ import Link from 'next/link';
 function ProjectsPage() {
   const projects = [
     {
-      title: "Online Voting System",
-      description: "",
-      tech: "DBMS · SQLite · Django Framework · ",
+      title: "Fake News Detection",
+      description: "Few shot based Prompt based tuning with knowledge grounding framework for fake news detection.",
+      tech: "Python · TensorFlow · Apache Spark · Kafka",
+      link: "#"
+    },
+    {
+      title: "iVote",
+      description: "Online Voting System where users can create and participate in elections, with real-time updates and secure authentication.",
+      tech: "Python · SQLite · Django Framework · HTML · CSS · JavaScript · Version Control(Git)",
+      link: "https://github.com/Mahisidda/iVote"
+    },
+    {
+      title: "Book Recommendation System",
+      description: "ML-powered recommendation engine using Neural Collaborative Filtering, processing 1M+ ratings from Book-Crossing dataset with real-time updates via Kafka.",
+      tech: "Python · TensorFlow · Apache Spark · Kafka",
       link: "#"
     },
     {
       title: "ECDSA Encrypted Chat Application",
       description: "End-to-end encrypted messaging system using Elliptic Curve Digital Signature Algorithm (ECDSA) for message authentication and forward secrecy.",
-      tech: "TypeScript · WebCrypto API · Socket.io · Redis",
+      tech: "",
       link: "#"
     },
     {
-      title: "Book Recommendation System",
+      title: "Capstone Project",
       description: "ML-powered recommendation engine using Neural Collaborative Filtering, processing 1M+ ratings from Book-Crossing dataset with real-time updates via Kafka.",
       tech: "Python · TensorFlow · Apache Spark · Kafka",
       link: "#"
@@ -66,12 +78,12 @@ function ProjectsPage() {
                 {project.link !== "#" ? (
                   <Link
                     href={project.link}
-                    className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors"
+                    className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-full text-white bg-yellow-600 hover:bg-red-700 transition-colors"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={`View ${project.title} project`}
                   >
-                    View Project
+                    GitHub
                   </Link>
                 ) : (
                   <span className="text-gray-500 text-sm">Coming soon</span>
@@ -86,3 +98,6 @@ function ProjectsPage() {
 }
 
 export default ProjectsPage;
+
+
+
