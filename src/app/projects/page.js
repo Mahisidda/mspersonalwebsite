@@ -16,10 +16,10 @@ function ProjectsPage() {
       link: "https://github.com/Mahisidda/iVote"
     },
     {
-      title: "Book Recommendation System",
+      title: "ReadWise",
       description: "ML-powered recommendation engine using Neural Collaborative Filtering, processing 1M+ ratings from Book-Crossing dataset with real-time updates via Kafka.",
       tech: "Python · TensorFlow · Apache Spark · Kafka",
-      link: "#"
+      link: "https://github.com/Mahisidda/ReadWise"
     },
     {
       title: "ECDSA Encrypted Chat Application",
